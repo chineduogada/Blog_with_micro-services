@@ -1,3 +1,5 @@
 client/node_modules
 comments/node_modules
+eventBus/node_modules
 posts/node_modules
+query/node_modules
