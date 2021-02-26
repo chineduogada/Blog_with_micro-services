@@ -15,23 +15,22 @@ function CommentCreate({ postId }) {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <div className="form-group">
-          <label>Comment</label>
-          <input
-            type="text"
-            className="form-control"
-            value={content}
-            onChange={(e) => setContent(e.target.value)}
-          />
-        </div>
+    <form onSubmit={handleSubmit} style={{ marginTop: "20px" }}>
+      <div className="form-group">
+        <label>Comment</label>
+        <input
+          type="text"
+          className="form-control"
+          style={{ margin: "10px 0" }}
+          value={content}
+          onChange={(e) => setContent(e.target.value)}
+        />
+      </div>
 
-        <button type="submit" className="btn btn-primary">
-          Submit
-        </button>
-      </form>
-    </div>
+      <button type="submit" className="btn btn-primary">
+        Submit
+      </button>
+    </form>
   );
 }
 
