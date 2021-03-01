@@ -1,5 +1,5 @@
 # Blog_with_micro-services
-A very basic blog built in a Microservice architecture
+A very basic blog, built in a Microservice architecture
 
 ## Usage
 1. Clone this repository
