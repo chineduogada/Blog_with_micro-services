@@ -3,13 +3,13 @@ import React from "react";
 function CommentList({ comments }) {
   const moderateComment = (comment) => {
     if (comment.status === "pending") {
-      return "Comment is awaiting moderation";
+      return "This comment is awaiting moderation";
     }
     if (comment.status === "approved") {
       return comment.content;
     }
     if (comment.status === "rejected") {
-      return "Comment is rejected!";
+      return "This comment has been rejected!";
     }
   };
 
